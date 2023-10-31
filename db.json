@@ -1,0 +1,17 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "img": "https://cdn.vox-cdn.com/thumbor/-cDJoLgCSXTQZWQvgQoIV_wLG7E=/0x75:3840x2085/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24179333/kratos_cave2.jpg"
+    },  {
+      "id": 2,
+      "title": "Post 2",
+      "img": "https://imageresizer.static9.net.au/AW6-tQ4DKw_H7f6IjlF-tP-8W6U=/1200x675/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F249ce53b-ca38-47d7-9e6d-f1e8b915dde9"
+    }, {
+      "id": 3,
+      "title": "Post 3",
+      "img": "https://media.wired.com/photos/639bf35a24c352e627eccc43/191:100/w_1280,c_limit/Ragnaro%CC%88k-culture-ar1qdh.jpg"
+    }
+  ]
+}

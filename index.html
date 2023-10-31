@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="bg-fuchsia-900">
+    <div
+      class="captcha-container w-[28%] bg-gray-400 p-[55px] ml-[550px] mb-[200px] rounded-[16px] text-center mt-[100px]"
+    >
+      <img src="./media/a.png" alt="" class="w-[100%] h-[100%]" />
+      <img
+        class="captcha-image p-[24px] ml-[55px] rounded-[16px]"
+        id="captcha-image"
+        src=""
+        alt="Captcha Image"
+      />
+      <input
+        class="captcha-input h-[50px] w-[200px] rounded-[6px] pl-[11px] text-center text-gray-700"
+        type="text"
+        id="captcha-input"
+        placeholder="Enter the characters"
+      />
+      <button
+        class="captcha-submit bg-teal-900 mt-[30px] p-[10px-25px] rounded-[7px] capitalize text-white w-[100px] h-[40px]"
+        onclick="validateCaptcha()"
+      >
+        Submit
+      </button>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
